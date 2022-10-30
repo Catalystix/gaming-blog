@@ -1,10 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Rajdhani&display=swap');
+html {
+    background-color: rgb(153, 147, 147);
+}
 header {
+    font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
-    width: 90% ;
+    text-align: center; width: 90% ;
+    
     margin: 40px;
     border: 5px rgb(5, 2, 0);
-    box-shadow: 50px 20px aquamarine;
+    box-shadow: 50px 20px rgb(121, 1, 1);
     opacity: 70%;
+    background-image: url(./alex.webp);
+    width: auto;
+    height: 200px;
+    
+}
+.breadcrumb {
+    position: fixed;
+    top: 8;
+    left: 0;
+    z-index: 1;
+    width: 100%; max-width: 1024px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+
+    }
+.breadcrumb li+li::before {
+    color: black;
+}
+.breadcrumb li+li::after {
+    color:rgb(5, 2, 0)
+}
+.breadcrumb li.location a:hover {
+    color: green;
+    text-decoration: underline;
+}
+.battle {
+    font-weight: bold;
+}
+
+.halo {
+    font-family: 'Rajdhani', sans-serif;
+    background-image: url(./unsc.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    range: center;
+
+}
+.halo h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.wowlogo p {
+    font-family: "Object Sans",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 80px;
+
+}
+.wowlogo h1 {
+    text-align: center;
+    font-size: 35px;
+           
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.metroid {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 80px;
 }
