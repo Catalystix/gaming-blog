@@ -93,5 +93,12 @@ img {
     margin-right: auto;
     width: 100px;
     height: 100px;
+}
+.footer {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
 
 }
